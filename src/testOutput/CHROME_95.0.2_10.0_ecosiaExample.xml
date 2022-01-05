@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="ecosiaExample"
+    errors="0" failures="1" hostname="" id="" package="ecosiaExample" skipped="1"
+    tests="1" time="8.424" timestamp="">
+  
+    <testcase name="step one: navigate to ecosia.org" classname="ecosiaExample" time="8.424" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5187ms)">    at Object.step one: navigate to ecosia.org (E:\Work\nightwatch\src\tests\ecosiaExample.js:6:8)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+    
+    <testcase
+      name="step two: click submit" classname="ecosiaExample">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

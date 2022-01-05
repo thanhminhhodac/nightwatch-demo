@@ -1,0 +1,8 @@
+1641255316334	geckodriver	INFO	Listening on 127.0.0.1:4445
+1641255318042	webdriver::command	WARN	You are using deprecated legacy session negotiation patterns (desiredCapabilities/requiredCapabilities), see https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities#Legacy
+1641255318054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\hodac\\AppData\\Local\\Temp\\rust_mozprofilemZ08SY"
+1641255318892	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\hodac\\AppData\\Local\\Temp\\rust_mozprofilemZ08SY\\search.json.mozlz4", (void 0)))
+1641255322799	Marionette	INFO	Listening on port 60220
+1641255322901	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641255331374	Marionette	INFO	Stopped listening on port 60220

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="hackernewExample"
+    errors="0" failures="1" hostname="" id="" package="hackernewExample" skipped="0"
+    tests="2" time="8.388" timestamp="">
+  
+    <testcase name="Step 1: navigate to hacker new page" classname="hackernewExample" time="2.466" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: click on header to navigate to newsest" classname="hackernewExample" time="5.922" assertions="3">
+
+    
+
+      <failure message="Testing if the URL is &#39;https://news.ycombinator.com/news&#39; in 5000ms - expected &#34;is &#39;https://news.ycombinator.com/news&#39;&#34; but got: &#34;https://news.ycombinator.com/newest&#34; (5297ms)">    at Object.Step 2: click on header to navigate to newsest (E:\Work\nightwatch\src\tests\hackernewExample.js:16:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

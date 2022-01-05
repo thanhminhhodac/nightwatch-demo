@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="hackernewExample"
+    errors="0" failures="0" hostname="" id="" package="hackernewExample" skipped="0"
+    tests="2" time="2.043" timestamp="">
+  
+    <testcase name="Step 1: navigate to hacker new page" classname="hackernewExample" time="1.561" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: click on header to navigate to newsest" classname="hackernewExample" time="0.4820" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        ReferenceError: page is not defined
+       at Object.Step 1: Go to Advance Search page (E:\Work\nightwatch\src\tests\googleAdvancedSearch.js:7:5)
+       at processTicksAndRejections (node:internal/process/task_queues:96:5)
+  TypeError: Cannot read properties of undefined (reading &#39;navigate&#39;)
+       at Object.step 1: navigate to rocket chat (E:\Work\nightwatch\src\tests\rocketChat.js:9:8)
+       at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

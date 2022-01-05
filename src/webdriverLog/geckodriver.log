@@ -1,0 +1,18 @@
+1641348093582	geckodriver	INFO	Listening on 127.0.0.1:4444
+1641348093949	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\hodac\\AppData\\Local\\Temp\\rust_mozprofileIkJT3g"
+1641348094476	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\hodac\\AppData\\Local\\Temp\\rust_mozprofileIkJT3g\\search.json.mozlz4", (void 0)))
+1641348097801	Marionette	INFO	Listening on port 49553
+1641348107579	Marionette	INFO	Stopped listening on port 49553
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
